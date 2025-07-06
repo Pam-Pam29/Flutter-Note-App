@@ -30,7 +30,7 @@ Business Logic Layer: Contains application logic and state management
 Presentation Layer: UI components and user interactions
 
 
-### Build Steps
+## Build Steps
 **Prerequisites**
 
 Flutter SDK (>=3.0.0)
@@ -50,6 +50,7 @@ flutter pub get
 ```
 
 4. Firebase Setup
+   
 Create Firebase Project
 
 Go to Firebase Console
@@ -89,8 +90,7 @@ google-services.json for Android → place in android/app/
 GoogleService-Info.plist for iOS → place in ios/Runner/
 
 
-
-4. Configure Build Files
+8. Configure Build Files
 ```
 Android (android/app/build.gradle)
 gradleandroid {
@@ -114,16 +114,23 @@ flutter run
 Notes Management
 
 Create new notes with custom text
+
 View all notes in chronological order
+
 Edit existing notes inline
+
 Delete notes with confirmation
+
 Empty state handling
 
 User Experience
 
 Loading indicators during operations
+
 Success/error snackbar notifications
+
 Responsive design for all screen sizes
+
 Intuitive navigation and controls
 
 Testing
@@ -144,17 +151,6 @@ Generate Coverage Report
 flutter test --coverage
 ```
 
-Efficient state management with BLoC
-Optimized Firestore queries
-Proper error handling and loading states
-Clean architecture for maintainability
-
-Security Best Practices
-
-Firebase configuration files excluded from version control
-Proper authentication validation
-Secure Firestore security rules
-Input validation and sanitization
 
 **Contributing**
 
@@ -167,7 +163,8 @@ Open a Pull Request
 
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
-Acknowledgments
+
+### Acknowledgments
 
 Flutter team for the amazing framework
 Firebase team for backend services
