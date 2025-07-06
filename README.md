@@ -49,37 +49,9 @@ cd flutter-notes-app
 flutter pub get
 ```
 
-4. Firebase Setup
+3. Firebase Setup
    
-Create Firebase Project
-
-Go to Firebase Console
-
-Click "Add project"
-
-Enter project name
-
-Follow setup wizard
-
-5. Enable Authentication
-
-Go to Authentication → Sign-in method
-
-Enable "Email/Password"
-
-Save changes
-
-6. Create Firestore Database
-
-Go to Firestore Database
-
-Click "Create database"
-
-Choose "Start in test mode"
-
-Select region
-
-7. Add Firebase to App
+4. Add Firebase to App
 
 Register your app in Firebase Console
 
@@ -90,7 +62,7 @@ google-services.json for Android → place in android/app/
 GoogleService-Info.plist for iOS → place in ios/Runner/
 
 
-8. Configure Build Files
+5. Configure Build Files
 ```
 Android (android/app/build.gradle)
 gradleandroid {
@@ -105,7 +77,7 @@ iOS (ios/Runner/Info.plist)
 ```
 
 
-5. Run the App
+6. Run the App
    
 ```bash
 flutter run
