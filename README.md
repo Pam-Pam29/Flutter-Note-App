@@ -99,19 +99,10 @@ flutter test --coverage
 
 **Contributing**
 
-Fork the repository
-
-Create a feature branch (git checkout -b feature/amazing-feature)
-
-Commit your changes (git commit -m 'Add some amazing feature')
-
-Push to the branch (git push origin feature/amazing-feature)
-
-Open a Pull Request
-
+This is an academic project, but we welcome suggestions for improvement.
 
 ### License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is created for educational purposes as part of a Flutter development course.
 
 ### Acknowledgments
 
@@ -125,3 +116,11 @@ Material Design team for UI guidelines
 
 ### Contact
 For questions or support, please open an issue in the GitHub repository.
+
+---
+
+**Author**: Victoria Fakunle 
+**Course**: Mobile App Development  
+**Email** - v.fakunle@alustudent.com
+**Assignment**: Individual Assignment 2  
+
