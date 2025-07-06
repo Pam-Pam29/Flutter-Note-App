@@ -34,8 +34,11 @@ Presentation Layer: UI components and user interactions
 **Prerequisites**
 
 Flutter SDK (>=3.0.0)
+
 Firebase account
+
 Android Studio / VS Code
+
 Git
 
 1. Clone Repository
@@ -97,9 +100,13 @@ flutter test --coverage
 **Contributing**
 
 Fork the repository
+
 Create a feature branch (git checkout -b feature/amazing-feature)
+
 Commit your changes (git commit -m 'Add some amazing feature')
+
 Push to the branch (git push origin feature/amazing-feature)
+
 Open a Pull Request
 
 
@@ -109,8 +116,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ### Acknowledgments
 
 Flutter team for the amazing framework
+
 Firebase team for backend services
+
 BLoC library contributors
+
 Material Design team for UI guidelines
 
 ### Contact
