@@ -1,16 +1,86 @@
-# note_app
+# Flutter Notes App
 
-A new Flutter project.
+A comprehensive notes application built with Flutter, Firebase Authentication, and Cloud Firestore following Clean Architecture principles.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- 🔐 Firebase Authentication (Email/Password)
+- 📝 CRUD operations for notes
+- 🏗️ Clean Architecture with BLoC pattern
+- 📱 Responsive UI with Material Design
+- 🔄 Real-time data synchronization
+- ⚡ State management with flutter_bloc
 
-A few resources to get you started if this is your first Flutter project:
+## Architecture
+lib/
+├── main.dart
+├── data/
+│   ├── models/
+│   │   └── note_model.dart
+│   └── repositories/
+│       ├── auth_repository.dart
+│       └── notes_repository.dart
+├── business_logic/
+│   ├── auth_cubit/
+│   │   ├── auth_cubit.dart
+│   │   └── auth_state.dart
+│   └── notes_cubit/
+│       ├── notes_cubit.dart
+│       └── notes_state.dart
+└── presentation/
+├── screens/
+│   ├── auth_screen.dart
+│   └── notes_screen.dart
+└── widgets/
+└── note_dialog.dart
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Build Steps
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Prerequisites
+- Flutter SDK (>=3.0.0)
+- Firebase account
+- Android Studio / VS Code
+- Git
+
+### Setup Instructions
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/flutter-notes-app.git
+   cd flutter-notes-app
+
+Install dependencies
+bashflutter pub get
+
+**Firebase Setup**
+
+Create a new Firebase project
+Enable Authentication (Email/Password)
+Create Cloud Firestore database
+Download configuration files:
+
+google-services.json for Android
+GoogleService-Info.plist for iOS
+
+
+
+
+Run the app
+bashflutter run
+
+
+Testing
+Run tests with:
+bashflutter test
+Run analyzer:
+bashflutter analyze
+Contributing
+
+Fork the repository
+Create a feature branch
+Make your changes
+Run tests and analyzer
+Submit a pull request
+
+License
+This project is licensed under the MIT License.
