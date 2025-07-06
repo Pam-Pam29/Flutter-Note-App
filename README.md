@@ -53,15 +53,6 @@ flutter pub get
    
 4. Add Firebase to App
 
-Register your app in Firebase Console
-
-Download configuration files:
-
-google-services.json for Android → place in android/app/
-
-GoogleService-Info.plist for iOS → place in ios/Runner/
-
-
 5. Configure Build Files
 ```
 Android (android/app/build.gradle)
@@ -83,29 +74,8 @@ iOS (ios/Runner/Info.plist)
 flutter run
 ```
 
-Notes Management
+### Testing
 
-Create new notes with custom text
-
-View all notes in chronological order
-
-Edit existing notes inline
-
-Delete notes with confirmation
-
-Empty state handling
-
-User Experience
-
-Loading indicators during operations
-
-Success/error snackbar notifications
-
-Responsive design for all screen sizes
-
-Intuitive navigation and controls
-
-Testing
 Run Tests
 
 ```bash
